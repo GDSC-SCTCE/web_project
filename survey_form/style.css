@@ -1,0 +1,111 @@
+ 
+.form-setup{
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+    padding:10px;
+    align-items: center;
+    margin-left:400px;
+    margin-right: 400px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+  .form-group1 input,select,textarea{
+     margin:0;
+     height:30px;
+     border: none;
+border-color: transparent;
+
+    
+ }
+
+ 
+button  {
+  
+margin:auto;
+    width:400px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color:rgb(15, 197, 15);
+    color:white;
+    height: 30px;
+    border-radius:10px;
+    border:none;
+}
+h1{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+ 
+ 
+.form-group1 label {
+    display:block;
+}
+.form-group1 input {
+    width:400px;
+    height:30px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+ 
+
+
+.form-group2 select{
+    text-decoration: none;
+    width:405px;
+    height:30px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+.form-group2 label{
+    display:block;
+}
+.form-group3 label{
+    display:block;
+}
+.form-group3 select{
+    text-decoration: none;
+    width:405px;
+    height:30px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+.input-checkbox{
+ 
+  margin-right: 0.625rem;
+  min-height: 2px;
+  min-width: 2px;
+}
+ 
+.form-group4 label{
+    display:block
+}
+.form-group4 input{
+     
+    
+    margin-top: 10px;
+    margin-bottom:5px;
+    
+}
+.form-group5 textarea{
+     
+    width:400px;
+    height:150px;
+    margin-top: 10px;
+    margin-bottom:5px;
+    border-radius:10px;
+    border:none;
+    padding:5px;
+    
+}
+ 
+ 
+
