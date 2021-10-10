@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.1rem;
     
 }
@@ -14,6 +16,7 @@ img {
     height: auto;
     margin: 0 auto;
   }
+
 #main{
     margin-top:30px;
     background-color: #EEEEEE;
@@ -28,13 +31,13 @@ img {
     padding:30px 30px 10px 30px;
 }
 .sub-head{
-    font-size:1em;
+    font-size:1.5em;
     text-align:center; 
     font-weight: normal;
     padding:5px 25px 15px 25px;
 }
 .sentences{
-    font-size:1em;
+    font-size:2em;
     text-align:center;
     font-weight: normal;
 }
@@ -51,7 +54,7 @@ img {
     margin:0 auto;
 }
 #img-caption{
-    font-size:1em;
+    font-size:1.5em;
     text-align:center; 
     margin:10px;
 }
@@ -65,14 +68,48 @@ img {
 }
 .timeline-heading{
     text-align:center;
-     
-   
+    font-size: 1.5em;
+        
 }
+
+.milestones{
+    font-size: 1.5em;
+}
+
+.movies{
+    padding: 20px;
+}
+
+.movie-head{
+    text-align: center;
+    font-size: 2em;
+}
+
+.book-on-steve{
+    text-align: center;
+    font-size: 2em;
+}
+
+.book-heading{
+    text-align:center;
+    margin:40px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#book-link{
+    text-align: center;
+    text-decoration: none;
+}
+
+
 .bottom-heading{
     text-align:center;
     margin:40px;
     font-weight: bold;
+    font-size: 1.5em;
 }
 #tribute-link{
     text-decoration: none;
 }
+
