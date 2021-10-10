@@ -1,27 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+body{
+    background: url("../img/BluishSky.jpg") no-repeat;
+    background-size: cover;
+}
  
 .form-setup{
+    
     display:flex;
     flex-direction: column;
-    background-color:black;
-    color:white;
+    background-color:gainsboro;
+    color:black;
     padding:10px;
     align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     margin-left:400px;
     margin-right: 400px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
+    box-shadow: 1px 0px 10px -1px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 0px 10px -1px rgba(0,0,0,1);
+-moz-box-shadow: 1px 0px 10px -1px rgba(0,0,0,1);
 }
+
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
-  .form-group1 input,select,textarea{
+.form-group1 input,select,textarea{
      margin:0;
      height:30px;
-     border: none;
-border-color: transparent;
+     border: 2px solid black;
 
     
  }
+
+
 
  
 button  {
@@ -30,31 +45,46 @@ margin:auto;
     width:400px;
     margin-top: 10px;
     margin-bottom:10px;
-    background-color:rgb(15, 197, 15);
-    color:white;
+    background-color:rgb(57, 197, 174);
+
     height: 30px;
+    font-size: 15px;
     border-radius:10px;
     border:none;
+    color: black;
+    cursor: pointer;
 }
+
+button:hover{
+    background-color: rgb(25, 126, 109);
+    color:white;
+}
+
 h1{
     font-size:30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Kanit', sans-serif;
     text-align:center;
 }
- 
+
+.form-group1{
+    margin: 3vh 0px;
+}
  
 .form-group1 label {
+    font-family: 'Baloo Bhai 2', cursive;
     display:block;
 }
 .form-group1 input {
     width:400px;
     height:30px;
     border-radius:10px;
-    margin-top: 10px;
-    margin-bottom:5px;
+    margin-top: 3px;
+    margin-bottom:15px;
 }
  
-
+.form-group2{
+    margin: 3vh 0px;
+}
 
 .form-group2 select{
     text-decoration: none;
@@ -65,9 +95,16 @@ h1{
     margin-bottom:5px;
 }
 .form-group2 label{
+    font-family: 'Baloo Bhai 2', cursive;
     display:block;
 }
+
+.form-group3{
+    margin: 3vh 0px;
+}
+
 .form-group3 label{
+    font-family: 'Baloo Bhai 2', cursive;
     display:block;
 }
 .form-group3 select{
@@ -84,8 +121,13 @@ h1{
   min-height: 2px;
   min-width: 2px;
 }
- 
+
+.form-group4{
+    margin: 3vh 0px;
+}
+
 .form-group4 label{
+    font-family: 'Baloo Bhai 2', cursive;
     display:block
 }
 .form-group4 input{
@@ -95,17 +137,24 @@ h1{
     margin-bottom:5px;
     
 }
+
+.form-group5{
+    margin: 3vh 0px;
+}
+
 .form-group5 textarea{
      
     width:400px;
     height:150px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom:5px;
     border-radius:10px;
-    border:none;
+    border:2px solid black;
     padding:5px;
     
 }
  
- 
+.form-group5 p{
+    font-family: 'Baloo Bhai 2', cursive;
+}
 
